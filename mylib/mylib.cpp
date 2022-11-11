@@ -8,7 +8,7 @@
 
 
 #include <iostream>
-#include <boost/array.hpp>
+#include <array> 
 #include <asio.hpp>
 
 //void print_string(const std::string & a)  {
