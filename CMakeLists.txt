@@ -20,7 +20,7 @@ include_directories(mylib)
 
 If ( CMAKE_CXX_COMPILER_VERSION VERSION_LESS  9.0 )
 add_library(mylib SHARED mylib/mylib.cpp) 
-#target_compile_options(mylib PRIVATE  -D_GLIBCXX_USE_CXX11_ABI=1) 
+target_compile_options(mylib PRIVATE  -D_GLIBCXX_USE_CXX11_ABI=0) 
 
 else()
 
