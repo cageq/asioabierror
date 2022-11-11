@@ -4,7 +4,10 @@
 #include <string> 
 #include "mylib.h" 
 
+
 int main(){
-    print_string("FromMyApp");
+    std::string myStr = "From my app" ; 
+    
+    print_string(myStr.c_str() );
     return 0;
 }
