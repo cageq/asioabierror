@@ -14,6 +14,7 @@ include_directories(include)
 link_directories(bin)
 link_directories(lib)
 
+include_directories(opt/asio-1.22.1/include) 
 include_directories(mylib)
 
 
