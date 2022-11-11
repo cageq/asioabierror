@@ -25,6 +25,6 @@ else()
 
 add_executable(myapp  app/myapp.cpp)
 target_link_libraries(myapp mylib)
-target_compile_options(myapp PRIVATE  -D_GLIBCXX_USE_CXX11_ABI=0) 
+#target_compile_options(myapp PRIVATE  -D_GLIBCXX_USE_CXX11_ABI=0) 
 
 endif()
